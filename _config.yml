@@ -1,0 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Scott & Allison
+description: > # this means to ignore newlines until "baseurl:"
+  Eight years ago in Hinsdale, two teenagers met and fell in love. 
+  Now on September 3, 2016, Scott Cruwys and Allison Skibicki invite you to help celebrate their wedding.
+url: "http://www.scottmarriesallison.com" # the base hostname & protocol for your site
+baseurl: ""
+absolute_url: "http://www.scottmarriesallison.com"
+
+# Build settings
+markdown: kramdown
