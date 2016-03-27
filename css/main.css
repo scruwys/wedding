@@ -413,6 +413,13 @@ section#favorites .row:first-child {
 .registry-icons img {
   width: 100%;
 }
+.github {
+  color: #689da4;
+}
+.github:hover {
+  color: #689da4;
+  text-decoration: none;
+}
 @media (max-width: 667px) { 
   header#cover {
     background-position: -60px;
