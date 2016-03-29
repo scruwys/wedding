@@ -142,6 +142,7 @@ section {
   color: #689da4;
   letter-spacing: 0.1em;
   text-align: center;
+  margin-bottom: 60px;
 }
 .site-section > section p {
   margin-bottom: 0;
@@ -420,6 +421,19 @@ section#favorites .row:first-child {
   color: #689da4;
   text-decoration: none;
 }
+.mobile-only {
+  display: none;
+  padding: 10px;
+}
+.mobile-only a {
+  color: #FFFFFF;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+.mobile-only a:hover {
+  color: #EFEFEF;
+}
 @media (max-width: 667px) { 
   header#cover {
     background-position: -60px;
@@ -484,4 +498,5 @@ section#favorites .row:first-child {
     display: block;
     margin-bottom: 20px;
   }
+  .mobile-only { display: block; }
 }
